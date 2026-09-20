@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="المنيو الإلكتروني لـ Set Elsham ست الشام للمأكولات السورية — منيو سريع ومتجاوب مع البحث والتصنيفات وبيانات التواصل.">
+  <meta name="theme-color" content="#c91f2b">
+  <meta property="og:title" content="Set Elsham ست الشام | المنيو الإلكتروني">
+  <meta property="og:description" content="تصفح منيو ست الشام للمأكولات السورية.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/logo.jpg">
+  <link rel="stylesheet" href="style.css">
+  <title>Set Elsham ست الشام | المنيو الإلكتروني</title>
+</head>
+<body>
+  <header class="site-header">
+    <div class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-inner">
+        <img class="brand-logo" src="assets/logo.jpg" alt="شعار ست الشام للمأكولات السورية">
+        <div>
+          <p class="eyebrow">للمأكولات السورية</p>
+          <h1>Set Elsham <span class="arabic-name">ست الشام</span></h1>
+          <p class="hero-copy">منيو إلكتروني سريع وسهل التصفح</p>
+        </div>
+      </div>
+      <div class="hero-actions">
+        <a class="btn btn-light" href="tel:01222226301">اتصل الآن</a>
+        <a class="btn btn-dark" href="https://wa.me/201122444993" target="_blank" rel="noopener">واتساب</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="quick-info" aria-label="معلومات المطعم">
+      <div><span>⏰</span><strong>10 صباحًا — 5 فجرًا</strong></div>
+      <div><span>📍</span><strong>سيدي بشر بحري · الإسكندرية</strong></div>
+      <a class="map-quick-link" href="https://maps.app.goo.gl/zfC3GSjYu5R9c56Q8?g_st=ac" target="_blank" rel="noopener">📍 موقع المطعم</a>
+    </section>
+
+    <section class="menu-shell">
+      <div class="toolbar">
+        <div class="search-wrap">
+          <span aria-hidden="true">⌕</span>
+          <input id="searchInput" type="search" placeholder="ابحث عن صنف أو قسم..." autocomplete="off" aria-label="ابحث في المنيو">
+          <button id="clearSearch" class="clear-search" type="button" aria-label="مسح البحث" hidden>×</button>
+        </div>
+      </div>
+
+      <nav id="categoryNav" class="category-nav" aria-label="أقسام المنيو"></nav>
+      <div id="resultsInfo" class="results-info" aria-live="polite"></div>
+      <div id="menu"></div>
+
+      <div id="noResults" class="no-results" hidden>
+        <div class="no-results-icon">⌕</div>
+        <h2>لا توجد نتائج مطابقة</h2>
+        <p>جرّب اسم صنف مختلف أو امسح البحث للعودة إلى المنيو.</p>
+      </div>
+    </section>
+
+    <section class="locations">
+      <div class="section-heading">
+        <span>زورونا</span>
+        <h2>أماكننا</h2>
+      </div>
+      <div class="location-grid">
+        <a class="location-card" href="https://maps.app.goo.gl/zfC3GSjYu5R9c56Q8?g_st=ac" target="_blank" rel="noopener">
+          <span class="pin">⌖</span>
+          <div><strong>الإسكندرية، سيدي بشر بحري</strong><small>3 شارع محمد نجيب مقابل الدوران الرئيسي</small></div>
+        </a>
+        <a class="location-card" href="https://www.google.com/maps/search/?api=1&query=14+رأس+التين+الجمرك+الإسكندرية" target="_blank" rel="noopener">
+          <span class="pin">⌖</span>
+          <div><strong>الإسكندرية، بحري</strong><small>14 رأس التين حي الجمرك</small></div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img src="assets/logo.jpg" alt="" class="footer-logo">
+    <div>
+      <strong>Set Elsham · ست الشام</strong>
+      <p>للمأكولات السورية</p>
+    </div>
+    <div class="footer-links">
+      <a href="tel:01222226301">01222226301</a>
+      <a href="https://wa.me/201122444993" target="_blank" rel="noopener">01122444993</a>
+      <a href="https://maps.app.goo.gl/zfC3GSjYu5R9c56Q8?g_st=ac" target="_blank" rel="noopener">📍 موقع المطعم</a>
+    </div>
+    <div class="developer-credit">
+      <span>تطوير وتصميم</span>
+      <strong>كاظم صلاح</strong>
+      <a href="tel:01115116456">01115116456</a>
+      <a href="mailto:kazemsalah77@gmail.com">kazemsalah77@gmail.com</a>
+    </div>
+  </footer>
+
+  <div class="mobile-contact">
+    <a href="tel:01222226301">اتصال</a>
+    <a href="https://wa.me/201122444993" target="_blank" rel="noopener">واتساب</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
