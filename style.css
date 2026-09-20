@@ -91,3 +91,10 @@ h1{font-size:clamp(38px,7vw,64px);line-height:1.05;margin:0;font-weight:800}
 .developer-credit strong { font-size:1rem; }
 .developer-credit a { color:inherit; text-decoration:none; }
 @media (max-width:640px) { .map-quick-link { width:100%; } .developer-credit { text-align:center; } }
+
+.facebook-quick-link{color:#1558a6 !important}
+.vat-note{padding:0 20px 52px}
+.vat-note-inner{max-width:1080px;margin:auto;background:#fff;border:1px solid #eadfce;border-right:4px solid var(--gold);border-radius:18px;padding:16px 18px;display:flex;gap:12px;align-items:center;box-shadow:0 5px 18px rgba(60,30,10,.05)}
+.vat-icon{width:42px;height:42px;border-radius:13px;background:#fff5d8;color:#9a6900;display:grid;place-items:center;font-size:22px;font-weight:900;flex:0 0 42px}
+.vat-note-inner strong{display:block;margin-bottom:3px}.vat-note-inner p{margin:0;color:var(--muted);font-size:13px}
+@media (max-width:720px){.vat-note{padding:0 14px 38px}.vat-note-inner{padding:14px}.quick-info{grid-template-columns:1fr}.facebook-quick-link{grid-column:1}}
